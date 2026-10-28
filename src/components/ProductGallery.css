@@ -1,0 +1,34 @@
+
+.product-placeholder {
+  height: 320px;
+  background: linear-gradient(
+    145deg,
+    #fff5f8,
+    #fce4ec,
+    #ffffff
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  color: #654b55;
+  text-align: center;
+}
+
+.placeholder-icon {
+  font-size: 44px;
+  color: #d58da5;
+}
+
+.product-placeholder span:nth-child(2) {
+  font-family: Georgia, serif;
+  font-size: 22px;
+  letter-spacing: 3px;
+}
+
+.product-placeholder small {
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: #a57c8c;
+}
